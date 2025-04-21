@@ -31,11 +31,12 @@ jobs:
           JAR_NAME="simple_backend-0.0.1-SNAPSHOT.jar"
           LOCAL_JAR_PATH="build/libs/$JAR_NAME"
           REMOTE_SERVER="admin@91.99.77.206"
+          REMOTE_TRANSFER_DIR="/home/admin"
           REMOTE_JAR_DIR="/opt/notes"
 
-          rsync -avz -e "ssh" $LOCAL_JAR_PATH $REMOTE_SERVER:$REMOTE_JAR_DIR/$JAR_NAME
+          rsync -avz -e "ssh" $LOCAL_JAR_PATH $REMOTE_SERVER:$REMOTE_TRANSFER_DIR/$JAR_NAME
 
           ssh $REMOTE_SERVER << EOF
-            mv $REMOTE_JAR_DIR/$JAR_NAME $REMOTE_JAR_DIR/notes.jar
+            mv $REMOTE_TRANSFER_DIR/$JAR_NAME $REMOTE_JAR_DIR/notes.jar
             sudo systemctl restart notes.service
           EOF
