@@ -1,4 +1,4 @@
-package dev.benkaci.simple_backend.database.model
+package com.benkaci.simple_backend.database.model
 
 import org.bson.types.ObjectId
 import org.springframework.data.mongodb.core.index.Indexed

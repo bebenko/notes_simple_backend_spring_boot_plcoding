@@ -1,4 +1,4 @@
-package dev.benkaci.simple_backend.security
+package com.benkaci.simple_backend.security
 
 import jakarta.servlet.DispatcherType
 import org.springframework.context.annotation.Bean

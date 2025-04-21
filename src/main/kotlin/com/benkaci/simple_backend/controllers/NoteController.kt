@@ -1,8 +1,8 @@
-package dev.benkaci.simple_backend.controllers
+package com.benkaci.simple_backend.controllers
 
-import dev.benkaci.simple_backend.controllers.NoteController.NoteResponse
-import dev.benkaci.simple_backend.database.model.Note
-import dev.benkaci.simple_backend.database.repository.NoteRepository
+import com.benkaci.simple_backend.controllers.NoteController.NoteResponse
+import com.benkaci.simple_backend.database.model.Note
+import com.benkaci.simple_backend.database.repository.NoteRepository
 import jakarta.validation.Valid
 import jakarta.validation.constraints.NotBlank
 import org.bson.types.ObjectId

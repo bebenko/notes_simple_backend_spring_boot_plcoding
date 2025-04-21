@@ -1,6 +1,6 @@
-package dev.benkaci.simple_backend.database.repository
+package com.benkaci.simple_backend.database.repository
 
-import dev.benkaci.simple_backend.database.model.User
+import com.benkaci.simple_backend.database.model.User
 import org.bson.types.ObjectId
 import org.springframework.data.mongodb.repository.MongoRepository
 

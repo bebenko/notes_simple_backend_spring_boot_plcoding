@@ -1,4 +1,4 @@
-package dev.benkaci.simple_backend.controllers
+package com.benkaci.simple_backend.controllers
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping

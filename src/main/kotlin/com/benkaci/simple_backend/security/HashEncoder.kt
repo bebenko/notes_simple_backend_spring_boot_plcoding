@@ -1,4 +1,4 @@
-package dev.benkaci.simple_backend.security
+package com.benkaci.simple_backend.security
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
 import org.springframework.stereotype.Component

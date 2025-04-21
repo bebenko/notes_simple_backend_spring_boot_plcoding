@@ -1,4 +1,4 @@
-package dev.benkaci.simple_backend
+package com.benkaci.simple_backend
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

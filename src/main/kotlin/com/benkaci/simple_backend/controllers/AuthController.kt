@@ -1,6 +1,6 @@
-package dev.benkaci.simple_backend.controllers
+package com.benkaci.simple_backend.controllers
 
-import dev.benkaci.simple_backend.security.AuthService
+import com.benkaci.simple_backend.security.AuthService
 import jakarta.validation.Valid
 import jakarta.validation.constraints.Email
 import jakarta.validation.constraints.Pattern

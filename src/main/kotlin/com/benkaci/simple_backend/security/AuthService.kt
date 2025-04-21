@@ -1,9 +1,9 @@
-package dev.benkaci.simple_backend.security
+package com.benkaci.simple_backend.security
 
-import dev.benkaci.simple_backend.database.model.RefreshToken
-import dev.benkaci.simple_backend.database.model.User
-import dev.benkaci.simple_backend.database.repository.RefreshTokenRepository
-import dev.benkaci.simple_backend.database.repository.UserRepository
+import com.benkaci.simple_backend.database.model.RefreshToken
+import com.benkaci.simple_backend.database.model.User
+import com.benkaci.simple_backend.database.repository.RefreshTokenRepository
+import com.benkaci.simple_backend.database.repository.UserRepository
 import org.bson.types.ObjectId
 import org.springframework.http.HttpStatus
 import org.springframework.http.HttpStatusCode

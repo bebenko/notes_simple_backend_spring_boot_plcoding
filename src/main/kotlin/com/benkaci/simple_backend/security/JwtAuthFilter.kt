@@ -1,4 +1,4 @@
-package dev.benkaci.simple_backend.security
+package com.benkaci.simple_backend.security
 
 import jakarta.servlet.FilterChain
 import jakarta.servlet.http.HttpServletRequest
