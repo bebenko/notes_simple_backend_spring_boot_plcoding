@@ -37,6 +37,6 @@ jobs:
           rsync -avz -e "ssh" $LOCAL_JAR_PATH $REMOTE_SERVER:$REMOTE_TRANSFER_DIR/$JAR_NAME
 
           ssh $REMOTE_SERVER << EOF
-            mv $REMOTE_TRANSFER_DIR/$JAR_NAME $REMOTE_JAR_DIR/notes.jar
+            sudo mv $REMOTE_TRANSFER_DIR/$JAR_NAME $REMOTE_JAR_DIR/notes.jar
             sudo systemctl restart notes.service
           EOF
